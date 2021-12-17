@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Jolly Cola, Jolly, Original Dansk Cola, Danmark, Vestfyens Bryggeri, En Ægte Dansk Original, Danish Cola, Cola, læskedrik, hygge, A/S Bryggeriet Vestfyen, Assens, Smagsvarianter, Produkter, Webshop">
+    <title>Jolly Cola | Webshop</title>
+    <meta name="description" content="Jolly Cola - Forfriskende, original & dansk">
+    <meta name="author" content="Nikolaj Friis Pejstrup">
+    <link rel="shortcut icon" href="images/jolly-favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/63f60264a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/styles.css">
+</head> 
+<body>
+    <main>
+
+        <!--NAVBAR-->
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/jolly-logo-red.svg" alt="Jolly Cola Logo" height="40px"></a>
+                </div>
+                <div class="nav-links">
+                    <a class="shop nav-link" href="shop.html">Shop</a>
+                    <a class="smagsvarianter nav-link" href="smagsvarianter.html">Smagsvarianter</a>
+                    <a class="kontakt nav-link" href="kontakt.html">Kontakt os</a>
+                    <a class="omjolly nav-link" href="omjollycola.html">Om Jolly Cola</a>
+                </div>
+
+                <div class="nav-socials">
+                    <a class="nav-icon social-link" href="https://www.instagram.com/jollycolaoriginal" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a class="nav-icon social-link" href="basket.html" target="_blank"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                
+                <a class="social-link" id="hamburger-button" href="javascript:void(0);" onclick="toggleNav()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+        <!-- HAMBURGER MENU -->
+        <div class="container">
+            <div class="content">
+                <div class="responsive-nav" id="responsive-nav">
+                    <a class="shop nav-link" href="shop.html">Shop</a>
+                    <a class="smagsvarianter nav-link" href="smagsvarianter.html">Smagsvarianter</a>
+                    <a class="kontakt nav-link" href="kontakt.html">Kontakt os</a>
+                    <a class="omjolly nav-link" href="omjollycola.html">Om Jolly Cola</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- OM JOLLY UNDERSIDE HEADER -->
+        <section class="omjolly-header">
+            <div class="omjolly-header-wrap">
+                <div class="omjolly-header-text" data-aos="fade-up" data-aos-delay="210">
+                    <h1>Historien bag <br><span>Vestfyens Bryggeri</span></h1>
+                </div>
+                <div class="omjolly-header-image">
+                    <img src="images/brygger-billede-vestfyens.png" alt="Billede af Vestfyens Bryggeri brygger - Lånt fra Bryggeriet Vestfyens Facebook" data-aos="fade-left">
+                </div>
+            </div>
+        </section>
+
+        <!-- OM JOLLY TEKST -->
+        <section class="jollytext-1">
+            <div class="jollytext-wrap-1">
+                <img src="images/cangrid.png" alt="Om Jolly Billede af bryggeriet fra drone">
+                <p> Jolly Cola er en dansk original sodavand, og blev set første gang på markedet i 1959, da 18 danske bryggerier gik sammen of stiftede Dansk Coladrik A/S. Herfra gik det stærkt, og Jolly Cola var en af de førende læskedrikke de næste mange år i Danmark.
+                    <br><br>I 2003 overtog Vestfyens Bryggeri produktionen og markedsføringen, og formede Jolly Cola til det vi kender det i dag. Jolly Colas branding har ligeledes ændret sig en del gennem tiden, og vi er glade for nu at kunne præsentere det nyeste rebrand af den klassiske cola mange danskere har kær.
+                </p>
+            </div>
+        </section>
+
+        <section class="jollytext">
+            <div class="jollytext-wrap">
+                <p> ”A/S Bryggeriet Vestfyen er et stolt og selvstændigt bryggeri, som har brygget øl siden 1885. Det vil sige i mere end 130 år. I langt de fleste af årene er vores øl gået under navnet Vestfyen. Det gør de stadig, men i dag har vi også en række andre smagfulde brands som Willemoes, Bryggeriet Frejdahl og Jolly Cola i porteføljen.
+                    <br><br>De første 100 år af bryggeriets levetid foregik salget lokalt, men siden er vores produkter blevet kendte og efterspurgte over hele Danmark. 
+                    <br><br>I 2015 valgte vi helt at kvitte forbruget af miljøbelastede fyringsolie i vores produktion af øl og vand. Nu bruger vi udelukkende energi fra biobrændsel, der er CO2-neutral. Det er vi det første bryggeri i Danmark der gør.”
+                </p>
+                <img src="images/omjolly.png" alt="Om Jolly Billede af bryggeriet fra drone">
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-logo">
+                <a href="index.html"><img src="images/jolly-logo-beige.svg" alt="Jolly Logo" height="60px"></a>
+                <p>	&#169 A/S Bryggeriet Vestfyen, 2021 </p>
+            </div>
+
+            <div class="footer-menu">
+                <h4>Menu</h4>
+                <a class="shop footer-link" href="shop.html">Shop</a>
+                <a class="smagsvarianter footer-link" href="smagsvarianter.html">Smagsvarianter</a>
+                <a class="kontakt footer-link" href="kontakt.html">Kontakt os</a>
+                <a class="omjolly footer-link" href="omjollycola.html">Om Jolly Cola</a>
+            </div>
+
+            <div class="footer-kontakt">
+                <h4>Kontakt</h4>
+                <p>Fåborgvej 4, 5610 Assens</p>
+                <a href = "mailto:info@vestfyen.dk">info@vestfyen.dk</a>
+                <a href="tel:4564711041">Tlf.: +45 6471 1041</a>
+            </div>
+
+            <div class="socialemedier-footer">
+                <h4>Sociale Medier</h4>
+                <div class="socialemedier-ikoner-footer">
+                    <a class="footer-icon" href="https://www.instagram.com/jollycolaoriginal/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a class="footer-icon" href="https://www.facebook.com/JollyCola/" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/app.js"></script>    
+</body>
+
+</html>

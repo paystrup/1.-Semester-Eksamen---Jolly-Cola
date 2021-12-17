@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Jolly Cola, Jolly, Original Dansk Cola, Danmark, Vestfyens Bryggeri, En Ægte Dansk Original, Danish Cola, Cola, læskedrik, hygge, A/S Bryggeriet Vestfyen, Assens">
+    <title>Jolly Cola | Forfriskende, original & dansk</title>
+    <meta name="description" content="Jolly Cola - Forfriskende, original & dansk">
+    <meta name="author" content="Nikolaj Friis Pejstrup">
+    <link rel="shortcut icon" href="images/jolly-favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/63f60264a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head> 
+<body>
+    <main>
+
+        <!--NAVBAR-->
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/jolly-logo-red.svg" alt="Jolly Cola Logo" height="40px"></a>
+                </div>
+                <div class="nav-links">
+                    <a class="shop nav-link" href="shop.html">Shop</a>
+                    <a class="smagsvarianter nav-link" href="smagsvarianter.html">Smagsvarianter</a>
+                    <a class="kontakt nav-link" href="kontakt.html">Kontakt os</a>
+                    <a class="omjolly nav-link" href="omjollycola.html">Om Jolly Cola</a>
+                </div>
+
+                <div class="nav-socials">
+                    <a class="nav-icon social-link" href="https://www.instagram.com/jollycolaoriginal" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a class="nav-icon social-link" href="basket.html" target="_blank"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                
+                <a class="social-link" id="hamburger-button" href="javascript:void(0);" onclick="toggleNav()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+        <!-- HAMBURGER MENU -->
+        <div class="container">
+            <div class="content">
+                <div class="responsive-nav" id="responsive-nav">
+                    <a class="shop nav-link" href="shop.html">Shop</a>
+                    <a class="smagsvarianter nav-link" href="smagsvarianter.html">Smagsvarianter</a>
+                    <a class="kontakt nav-link" href="kontakt.html">Kontakt os</a>
+                    <a class="omjolly nav-link" href="omjollycola.html">Om Jolly Cola</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT FORM - SEND OS EN BESKED -->
+        <section class="contactform">
+            <div class="contactform-img" data-aos="fade-up" data-aos-delay="250">
+                <img src="images/jolly-illustration.png" alt="Jolly Illustration af dame">
+            </div>
+
+            <div class="contactform-wrapper" data-aos="fade-up">
+                <form action="#">
+                    <h2>Send os en besked</h2>
+                    <input type="text" id="fnavn" placeholder="Dit navn">
+                    <input type="text" id="email" placeholder="Email">
+                    <input type="text" id="emne" placeholder="Hvad har du på hjerte?">
+                    <input type="send" value="Send">
+                </form>
+            </div>
+        </section>
+
+        <!-- FAQ - OFTE STILLEDE SPØRGSMÅL -->
+        <section class="faq">
+            <div class="faq-box" data-aos="fade-up">
+                <h2 data-aos="fade-up" data-aos-delay="300">Ofte stillede spørgsmål<i class="fas fa-comment"></i></h2>
+
+                <div class="dropdown" >
+                    <div class="dropdown__top">Hvor bliver Jolly Cola produceret?</div>
+                    <div class="dropdown__btm">
+                        Jolly Cola har siden 1959 været produceret ved Vestfyens Bryggeri i Assens.
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <div class="dropdown__top">Jeg har ikke fået min ordre, kan I hjælpe?</div>
+                    <div class="dropdown__btm">
+                        Oplever du problemer med levering, så kontakt os endelig gennem formularen ovenfor, på tlf. +45 6471 1041  eller mail: info@vestfyen.dk.
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <div class="dropdown__top">Hvilke betalingsmuligheder har i på jeres webshop?</div>
+                    <div class="dropdown__btm">
+                        Du kan købe vores produkter i webshoppen med både Dankort, Visa og Mastercard. 
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <div class="dropdown__top">Hvilke butikker kan Jolly Cola købes i?</div>
+                    <div class="dropdown__btm">
+                        Du kan bestille Jolly Cola her, gennem vores hjemmeside - ellers findes den i Rema 1000, Aldi og Netto. 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--KORT-->
+        <section class="kort">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2273.473176735515!2d9.900067616031924!3d55.26241433717276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464cc882f9025ae5%3A0x2a97873e871a97bb!2sBryggeriet%20Vestfyen!5e0!3m2!1sda!2sdk!4v1639639477934!5m2!1sda!2sdk" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <!--SOCIALS BANNER -->
+        <section class="socialsbanner">
+            <a href="https://www.instagram.com/jollycolaoriginal/?hl=en" target="_blank" data-aos="fade-up"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/JollyCola/" target="_blank" data-aos="fade-up"><i class="fa fa-facebook"></i></a>
+        </section>
+      
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-logo">
+                <a href="index.html"><img src="images/jolly-logo-beige.svg" alt="Jolly Logo" height="60px"></a>
+                <p>	&#169 A/S Bryggeriet Vestfyen, 2021 </p>
+            </div>
+
+            <div class="footer-menu">
+                <h4>Menu</h4>
+                <a class="shop footer-link" href="shop.html">Shop</a>
+                <a class="smagsvarianter footer-link" href="smagsvarianter.html">Smagsvarianter</a>
+                <a class="kontakt footer-link" href="kontakt.html">Kontakt os</a>
+                <a class="omjolly footer-link" href="omjollycola.html">Om Jolly Cola</a>
+            </div>
+
+            <div class="footer-kontakt">
+                <h4>Kontakt</h4>
+                <p>Fåborgvej 4, 5610 Assens</p>
+                <a href="mailto:info@vestfyen.dk">info@vestfyen.dk</a>
+                <a href="tel:4564711041">Tlf.: +45 6471 1041</a>
+            </div>
+
+            <div class="socialemedier-footer">
+                <h4>Sociale Medier</h4>
+                <div class="socialemedier-ikoner-footer">
+                    <a class="footer-icon" href="https://www.instagram.com/jollycolaoriginal/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a class="footer-icon" href="https://www.facebook.com/JollyCola/" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+
+
+    </main>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/app.js"></script>    
+</body>
+
+</html>
