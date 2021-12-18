@@ -46,11 +46,11 @@ window.addEventListener('scroll', () => {
 //TIL AOS - SCROLL ANIMATIONS
 
 AOS.init({
-    duration: 1000,
+    duration: 850,
     once: false,
 })
 
-//ACCORDION FAQ TIL NATURVINSKASSEN
+//ACCORDION FAQ TIL FAQ
 
 jQuery('document').ready(function($){
     $('.dropdown__top').click(function(){
@@ -63,7 +63,8 @@ jQuery('document').ready(function($){
           $(this).parent(".dropdown").addClass("open");
           $(this).siblings(".dropdown__btm").slideDown(500);
         }
-      })
-    });
+    })
+});
+
 
 
