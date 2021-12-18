@@ -47,7 +47,7 @@ window.addEventListener('scroll', () => {
 
 AOS.init({
     duration: 850,
-    once: false,
+    once: true,
 })
 
 //ACCORDION FAQ TIL FAQ
