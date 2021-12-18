@@ -337,11 +337,11 @@ nav{
 .landing-wrap{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    align-items: flex-start;
+    padding-left: 15rem;
+    padding-right: 15rem;
     padding-bottom: 8rem;
-    padding-top: 15vh;
+    padding-top: 20vh;
     gap: 100px;
 }
 
@@ -376,7 +376,7 @@ nav{
 }
 
 .landing-image img{
-    max-height: 675px;
+    max-height: 650px;
 }
 
 .landing-image video{
@@ -453,10 +453,10 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: var(--beige);
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 .shopteaser-header h3{
@@ -476,7 +476,7 @@ nav{
 }
 
 .shopteaser-billeder img{
-    max-width: 450px;
+    max-width: 350px;
 }
 
 .shopteaser-billeder img:hover{
@@ -490,7 +490,7 @@ nav{
 }
 
 .smagsvarianter-image img{
-    max-width: 800px;
+    max-width: 700px;
     transform: translateY(10px);
 }
 
@@ -501,12 +501,13 @@ nav{
     padding-top: 6rem;
     padding-left: 20rem;
     padding-right: 10rem;
-    gap: 100px;
+    gap: 150px;
     color: var(--darkgreen);
 }
 
 .smagsvarianter-text{
     max-width: 70ch;
+    padding-bottom: 4.5rem;
 }
 
 .smagsvarianter-text h2{
@@ -1363,8 +1364,8 @@ input[type=send]:hover{
 }
 
 .jollytext-wrap img{
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .jollytext-1{
@@ -1389,8 +1390,8 @@ input[type=send]:hover{
 }
 
 .jollytext-wrap-1 img{
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 /* SHOP PRODUKTSIDE */
@@ -2104,6 +2105,8 @@ input[type=number]::-webkit-inner-spin-button{
 
     /*LANDING PAGE */
     .landing-wrap{
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         padding-left: 3rem;
         padding-right: 3rem;
@@ -2113,8 +2116,8 @@ input[type=number]::-webkit-inner-spin-button{
     }
 
     .landing-image img{
-        max-height: 400px;
-        max-width: 400px;
+        height: 350px;
+        width: auto;
     }
 
     .landing-header h1{
