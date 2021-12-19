@@ -1346,20 +1346,20 @@ input[type=send]:hover{
     justify-content: center;
     align-items: center;
     background-color: var(--darkgreen);
-    padding-top: 10rem;
-    padding-bottom: 5rem;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
     padding-left: 15rem;
     padding-right: 15rem;
 }
 
 .tidslinje img{
-    max-width: 100%;
+    max-width: 80%;
     min-width: 300px;
 }
 
 /* OM JOLLY - JOLLY TEKST SECTION */
 .jollytext{
-    background-color: var(--darkgreen);
+    background-color: var(--beige);
 }
 
 .jollytext-wrap{
@@ -1371,7 +1371,7 @@ input[type=send]:hover{
     padding-right: 15rem;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    color: var(--beige);
+    color: var(--darkgreen);
     font-size: 1.1rem;
 }
 
