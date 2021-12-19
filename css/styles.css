@@ -1341,6 +1341,22 @@ input[type=send]:hover{
     max-width: 650px;
 }
 
+.tidslinje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkgreen);
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.tidslinje img{
+    max-width: 100%;
+    min-width: 300px;
+}
+
 /* OM JOLLY - JOLLY TEKST SECTION */
 .jollytext{
     background-color: var(--darkgreen);
